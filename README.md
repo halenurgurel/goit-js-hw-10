@@ -110,7 +110,8 @@ npm run build
 
 **[Live Demo](https://halenurgurel.github.io/goit-js-hw-10/)** 📍
 
-**Tech Stack:** HTML5 · CSS3 · JavaScript (ES6+) · Vite · Flatpickr · iziToast  
+**Tech Stack:** HTML5 · CSS3 · JavaScript (ES6+) · Vite · Flatpickr · iziToast
+
 🔗 [GitHub Profile](https://github.com/halenurgurel)
 
 🎯 _“This project demonstrates how to handle complex asynchronous flows, manage local and future time states, and provide a polished user experience through custom-styled UI notifications and interactive elements.”_
