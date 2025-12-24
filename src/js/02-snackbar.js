@@ -1,7 +1,4 @@
-// Dokümantasyonda açıklanan
-import iziToast from "izitoast";
-// Ek stillerin ek olarak içe aktarılması
-import "izitoast/dist/css/iziToast.min.css";
+// iziToast is loaded via CDN in 02-snackbar.html
 
 const form = document.querySelector(".form");
 
@@ -11,7 +8,6 @@ form.addEventListener("submit", (event) => {
   const delay = Number(form.elements.delay.value);
   const state = form.elements.state.value;
 
-  //Promise
   const promise = new Promise((resolve, reject) => {
     setTimeout(() => {
       if (state === "fulfilled") {
@@ -22,7 +18,6 @@ form.addEventListener("submit", (event) => {
     }, delay);
   });
 
-  //Result of a promise
   promise
     .then((delay) => {
       iziToast.success({
