@@ -67,10 +67,10 @@ Custom Promises: Dynamically creates a `new Promise` that resolves or rejects ba
 
 ## 📸 Application Previews
 
-|            Countdown Timer Task             |      Promise Generator (Snackbar)       |
-| :-----------------------------------------: | :-------------------------------------: |
-|      ![Timer Preview](./img/timer.png)      | ![Snackbar Preview](./img/snackbar.png) |
-| _Modern countdown interface with flatpickr_ | _Custom styled iziToast notifications_  |
+|            Countdown Timer Task             |        Promise Generator (Snackbar)         |
+| :-----------------------------------------: | :-----------------------------------------: |
+|    ![Timer Preview](./src/img/timer.png)    | ![Snackbar Preview](./src/img/snackbar.png) |
+| _Modern countdown interface with flatpickr_ |   _Custom styled iziToast notifications_    |
 
 ---
 
