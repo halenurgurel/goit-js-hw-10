@@ -1,0 +1,140 @@
+/* General Pinterest Aesthetic Overrides for iziToast */
+
+.iziToast {
+  border-radius: 25px !important;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1) !important;
+  font-family: "Helvetica Neue", sans-serif !important;
+  padding: 18px 22px !important;
+  background: #fefefe !important;
+}
+
+.iziToast-title {
+  font-size: 16px !important;
+  font-weight: 600 !important;
+  color: #333 !important;
+  margin-bottom: 5px !important;
+}
+
+.iziToast-message {
+  font-size: 14px !important;
+  color: #555 !important;
+}
+
+.iziToast-icon {
+  width: 28px !important;
+  height: 28px !important;
+  line-height: 28px !important;
+  font-size: 18px !important;
+  border-radius: 50% !important;
+  margin-top: -14px !important; /* Center vertically */
+}
+
+.iziToast-progressbar {
+  height: 4px !important;
+  border-radius: 0 0 25px 25px !important;
+}
+
+/* Success State - Muted Sage Green */
+.iziToast.iziToast-color-green {
+  border: 1px solid #d4e6d4;
+}
+
+.iziToast.iziToast-color-green .iziToast-progressbar-in {
+  background: #a3c1a3 !important;
+}
+
+.iziToast.iziToast-color-green .iziToast-icon {
+  background: #d4e6d4 !important;
+  color: #5a7d5a !important;
+}
+
+/* Error State - Muted Terracotta/Rose */
+.iziToast.iziToast-color-red {
+  border: 1px solid #f8d7da;
+}
+
+.iziToast.iziToast-color-red .iziToast-progressbar-in {
+  background: #e5a0a7 !important;
+}
+
+.iziToast.iziToast-color-red .iziToast-icon {
+  background: #f8d7da !important;
+  color: #a94442 !important;
+}
+
+/* Form Styles to match */
+.form {
+  max-width: 480px;
+  margin: 40px auto;
+  padding: 30px;
+  background: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  font-family: "Helvetica Neue", sans-serif;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form label {
+  font-size: 14px;
+  color: #555;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.form input[type="number"] {
+  padding: 12px 15px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  font-size: 16px;
+  transition:
+    border-color 0.3s,
+    box-shadow 0.3s;
+}
+
+.form input[type="number"]:focus {
+  outline: none;
+  border-color: #a3c1a3;
+  box-shadow: 0 0 0 3px rgba(163, 193, 163, 0.3);
+}
+
+.form fieldset {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 15px;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.form legend {
+  padding: 0 10px;
+  margin-left: 10px;
+  font-size: 14px;
+  color: #555;
+}
+
+.form fieldset label {
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+}
+
+.form button[type="submit"] {
+  padding: 12px 20px;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.form button[type="submit"]:hover {
+  background-color: #555;
+}
