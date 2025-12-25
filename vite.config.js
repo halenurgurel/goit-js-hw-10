@@ -6,9 +6,9 @@ export default defineConfig({
   build: {
     rollupOptions: {
       input: {
-        main: resolve("index.html"),
-        timer: resolve("01-timer.html"),
-        snackbar: resolve("02-snackbar.html"),
+        main: resolve("./index.html"),
+        timer: resolve("./01-timer.html"),
+        snackbar: resolve("./02-snackbar.html"),
       },
     },
   },
