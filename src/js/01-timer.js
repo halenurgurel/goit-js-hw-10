@@ -1,11 +1,4 @@
 // flatpickr and iziToast are loaded via CDN in 01-timer.html
-// Belgelerde açıklandığı gibi
-import flatpickr from "flatpickr";
-// Ek stil dosyalarını içe aktar
-import "flatpickr/dist/flatpickr.min.css";
-
-import iziToast from "izitoast";
-import "izitoast/dist/css/iziToast.min.css";
 
 const startBtn = document.querySelector("button[data-start]");
 const datetimePicker = document.querySelector("#datetime-picker");

@@ -1,5 +1,4 @@
-import iziToast from "izitoast";
-import "izitoast/dist/css/iziToast.min.css";
+// iziToast is loaded via CDN in 02-snackbar.html
 
 const form = document.querySelector(".form");
 
