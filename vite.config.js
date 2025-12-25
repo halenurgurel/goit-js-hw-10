@@ -1,19 +1,14 @@
-import { defineConfig } from 'vite';
-import glob from 'glob';
-import { resolve } from 'path';
-import vitePluginFullReload from 'vite-plugin-full-reload';
+import { resolve } from "path";
+import { defineConfig } from "vite";
 
 export default defineConfig({
-  base: '/goit-js-hw-10/',
-  server: {
-    port: 3000,
-    open: true,
-  },
   build: {
     rollupOptions: {
-      input: glob.sync('./*.html'),
+      input: {
+        main: resolve(__dirname, "index.html"),
+        timer: resolve(__dirname, "01-timer.html"),
+        snackbar: resolve(__dirname, "02-snackbar.html"),
+      },
     },
-    outDir: 'dist',
   },
-  plugins: [vitePluginFullReload(['./src/**/**.js', './*.html'])],
 });
